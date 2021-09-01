@@ -1,1 +1,1 @@
-# ms-course
+# ms-course for studies
