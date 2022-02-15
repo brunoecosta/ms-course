@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserService {
 
-    private static Logger logger = LoggerFactory.getLogger(UserService.class);
+    private static final Logger logger = LoggerFactory.getLogger(UserService.class);
 
     @Autowired
     private UserFeignClient userFeignClient;
